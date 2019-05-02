@@ -14,6 +14,6 @@ namespace API.Models
 
         }
 
-      
+        public System.Data.Entity.DbSet<API.Models.Sale> Sales { get; set; }
     }
 }

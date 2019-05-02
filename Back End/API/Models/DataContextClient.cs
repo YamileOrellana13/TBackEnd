@@ -9,6 +9,6 @@
 
         }
 
-        
+        public System.Data.Entity.DbSet<API.Models.Client> Clients { get; set; }
     }
 }
