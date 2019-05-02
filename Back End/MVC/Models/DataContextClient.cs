@@ -8,5 +8,7 @@
         {
 
         }
+
+        public System.Data.Entity.DbSet<MVC.Models.Client> Clients { get; set; }
     }
 }

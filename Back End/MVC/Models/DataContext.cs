@@ -8,5 +8,7 @@
         {
 
         }
+
+        public System.Data.Entity.DbSet<MVC.Models.Product> Products { get; set; }
     }
 }

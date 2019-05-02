@@ -13,5 +13,7 @@ namespace MVC.Models
         {
 
         }
+
+        public System.Data.Entity.DbSet<MVC.Models.Sale> Sales { get; set; }
     }
 }
